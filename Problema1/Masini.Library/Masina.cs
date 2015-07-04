@@ -8,10 +8,20 @@ namespace Masini.Library
 {
     public class Masina
     {
-        public Masina()
-        { 
-        
+        public string marca { get; set; }
+        public int nrUsi { get; set; }
+        public Culori culoare { get; set; }
+        public Categorie categorie { get; set; }
+        public string serieSasiu { get; set; }
+        public enum Culori
+        {
+            alb,
+            negru,
+            gri,
+            rosu,
+            albastru,
+            verde,
+            argintiu
         }
-        public string Id { get; set; }
     }
 }

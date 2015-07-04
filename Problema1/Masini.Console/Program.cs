@@ -11,7 +11,7 @@ namespace Masini.Console
     {
         static void Main(string[] args)
         {
-            Masina x = new Masina();
+            
         }
     }
 }
