@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="Budget.cs" />
     <Compile Include="Categorie.cs" />
+    <Compile Include="Enums.cs" />
     <Compile Include="Luxury.cs" />
     <Compile Include="Masina.cs" />
     <Compile Include="Premium.cs" />

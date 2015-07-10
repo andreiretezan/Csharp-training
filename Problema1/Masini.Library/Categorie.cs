@@ -6,10 +6,17 @@ using System.Threading.Tasks;
 
 namespace Masini.Library
 {
-    class Categorie
+    public class Categorie
     {
         public string nume { get; set; }
         public int capacitateMotor { get; set; }
         public int greutate { get; set; }
+
+       /* public Categorie (string Nume, int CapMotor, int Greutate)
+        {
+            nume = Nume;
+            capacitateMotor = CapMotor;
+            greutate = Greutate;
+        }*/
     }
 }

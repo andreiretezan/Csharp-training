@@ -10,18 +10,22 @@ namespace Masini.Library
     {
         public string marca { get; set; }
         public int nrUsi { get; set; }
-        public Culori culoare { get; set; }
+        public Enums.Culori culoare { get; set; }
         public Categorie categorie { get; set; }
         public string serieSasiu { get; set; }
-        public enum Culori
+        
+        public Masina (string Marca, int NrUsi, Enums.Culori Culoare, Categorie categ, string SerieSasiu)
         {
-            alb,
-            negru,
-            gri,
-            rosu,
-            albastru,
-            verde,
-            argintiu
+            marca = Marca;
+            nrUsi = NrUsi;
+            culoare = Culoare;
+            categorie = categ;
+            serieSasiu = SerieSasiu;
+        }
+
+        public override string ToString()
+        {
+            return string.Format("{0}-{1}-{2}-{3}-{4}", marca, nrUsi, culoare, categorie, serieSasiu) ;
         }
     }
 }
