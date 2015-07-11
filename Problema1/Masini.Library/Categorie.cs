@@ -12,11 +12,11 @@ namespace Masini.Library
         public int capacitateMotor { get; set; }
         public int greutate { get; set; }
 
-       /* public Categorie (string Nume, int CapMotor, int Greutate)
+       public Categorie (string Nume, int CapMotor, int Greutate)
         {
             nume = Nume;
             capacitateMotor = CapMotor;
             greutate = Greutate;
-        }*/
+        }
     }
 }

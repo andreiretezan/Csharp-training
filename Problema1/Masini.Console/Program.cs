@@ -13,13 +13,13 @@ namespace Masini.Console
         {
             Masina masina1 = new Masina("Audi", 5, Enums.Culori.albastru, Categorie, "ABC8564WX210000");
 
-            Categorie C1= new Categorie();
+            Categorie C1= new Categorie("berlina", 1900, 2120);
 
-            C1.nume= "berlina";
+           /* C1.nume= "berlina";
             C1.capacitateMotor=2500;
-            C1.greutate=2100;
+            C1.greutate=2100;*/
            
-
+            
 
            
         }
