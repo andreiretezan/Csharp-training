@@ -18,7 +18,7 @@ namespace Masini.Console
            /* C1.nume= "berlina";
             C1.capacitateMotor=2500;
             C1.greutate=2100;*/
-           
+
             
 
            
