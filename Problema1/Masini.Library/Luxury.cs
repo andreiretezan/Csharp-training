@@ -12,7 +12,8 @@ namespace Masini.Library
         public string sistemParktronic { get; set; }
         public string entertainmentSystem { get; set; }
 
-        public Luxury(string aer, string sistem, string enterain, string Marca, int NrUsi, Enums.Culori Culoare, Categorie categ, string SerieSasiu): base(Marca, NrUsi, Culoare, categ, SerieSasiu )
+        public Luxury(string aer, string sistem, string enterain, string Marca, int NrUsi, Enums.Culori Culoare, Categorie categ, string SerieSasiu)
+            : base(Marca, NrUsi, Culoare, categ, SerieSasiu )
         {
             AerConditionatC = aer;
             sistemParktronic = sistem;

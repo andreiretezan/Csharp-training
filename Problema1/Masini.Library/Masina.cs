@@ -25,7 +25,8 @@ namespace Masini.Library
 
         public override string ToString()
         {
-            return string.Format("{0}-{1}-{2}-{3}-{4}", marca, nrUsi, culoare, categorie, serieSasiu) ;
+            return string.Format("Detalii masina:\n Model: {0}, Numar usi:{1}, Culoare:{2}, Tip:{3}, Serie sasiu:{4}", 
+                marca, nrUsi, culoare, categorie, serieSasiu) ;
         }
     }
 }

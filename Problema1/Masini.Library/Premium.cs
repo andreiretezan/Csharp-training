@@ -12,7 +12,8 @@ namespace Masini.Library
         public string senzoriParcare { get; set; }
         public string casetofonDigitalCD { get; set; }
 
-        public Premium (string aerC, string senzori, string casetofon, string Marca, int NrUsi, Enums.Culori Culoare, Categorie categ, string SerieSasiu): base(Marca, NrUsi, Culoare, categ, SerieSasiu)
+        public Premium (string aerC, string senzori, string casetofon, string Marca, int NrUsi, Enums.Culori Culoare, Categorie categ, string SerieSasiu)
+            :base(Marca, NrUsi, Culoare, categ, SerieSasiu)
         {
             aerConditionat = aerC;
             senzoriParcare = senzori;
