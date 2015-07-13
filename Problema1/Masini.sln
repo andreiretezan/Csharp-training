@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Masini.Console", "Masini.Console\Masini.Console.csproj", "{2BABFB7F-AEEF-4F71-B892-72D3046248F9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Masini.EXE", "Masini.Console\Masini.EXE.csproj", "{2BABFB7F-AEEF-4F71-B892-72D3046248F9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Masini.Library", "Masini.Library\Masini.Library.csproj", "{5D2E8089-A6D8-4C46-8CF8-468EEE791BA2}"
 EndProject

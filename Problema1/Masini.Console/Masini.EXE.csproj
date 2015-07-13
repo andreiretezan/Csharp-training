@@ -7,8 +7,8 @@
     <ProjectGuid>{2BABFB7F-AEEF-4F71-B892-72D3046248F9}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Masini.Console</RootNamespace>
-    <AssemblyName>Masini.Console</AssemblyName>
+    <RootNamespace>Masini.EXE</RootNamespace>
+    <AssemblyName>Masini.EXE</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
