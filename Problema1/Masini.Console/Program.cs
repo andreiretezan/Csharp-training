@@ -28,6 +28,26 @@ namespace Masini.EXE
             Console.WriteLine(masina4.ToString()); Console.WriteLine();
             Console.WriteLine(masina5.ToString()); Console.WriteLine();
 
+            Console.WriteLine("Alegeti una din urmatoarele categorii:C1, C2, C3");
+            string alegere = Console.ReadLine();
+            if (alegere=="C1" || alegere=="c1")
+            {
+                Console.WriteLine(masina1.ToString());
+                Console.WriteLine(masina2.ToString());
+            }
+            else if (alegere=="C2" || alegere=="c2")
+            {
+                Console.WriteLine(masina3.ToString());
+                Console.WriteLine(masina4.ToString());
+            }
+            else if (alegere=="C3" || alegere=="c3")
+            {
+                Console.WriteLine(masina5.ToString());
+            }
+            else
+            {
+                Console.WriteLine("Categoria aleasa nu exista, va rugam incercati din nou");
+            }
 
             /*List<string> nume = new List<string>();
             nume.Add("");
