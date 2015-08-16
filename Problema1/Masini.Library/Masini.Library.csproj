@@ -39,12 +39,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Budget.cs" />
-    <Compile Include="Categorie.cs" />
+    <Compile Include="DataManager.cs" />
+    <Compile Include="Entitati\Budget.cs" />
+    <Compile Include="Entitati\Categorie.cs" />
     <Compile Include="Enums.cs" />
-    <Compile Include="Luxury.cs" />
-    <Compile Include="Masina.cs" />
-    <Compile Include="Premium.cs" />
+    <Compile Include="Entitati\Luxury.cs" />
+    <Compile Include="Entitati\Masina.cs" />
+    <Compile Include="Entitati\Premium.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

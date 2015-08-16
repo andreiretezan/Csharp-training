@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="Masini.Library.Masina">
+  <Class Name="Masini.Library.Entitati.Masina">
     <Position X="0.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAASAAAEAAAAIAAAAACAAAAAAAAAAABAAAA=</HashCode>
-      <FileName>Masina.cs</FileName>
+      <FileName>Entitati\Masina.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Masini.Library.Luxury" Collapsed="true">
+  <Class Name="Masini.Library.Entitati.Luxury" Collapsed="true">
     <Position X="3" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAgAAAAEAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Luxury.cs</FileName>
+      <FileName>Entitati\Luxury.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Masini.Library.Enums" Collapsed="true">
@@ -21,25 +21,25 @@
       <FileName>Enums.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Masini.Library.Categorie" Collapsed="true">
+  <Class Name="Masini.Library.Entitati.Categorie" Collapsed="true">
     <Position X="5" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAQAAAAAAIAAAAAEAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Categorie.cs</FileName>
+      <FileName>Entitati\Categorie.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Masini.Library.Budget" Collapsed="true">
+  <Class Name="Masini.Library.Entitati.Budget" Collapsed="true">
     <Position X="3" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Budget.cs</FileName>
+      <FileName>Entitati\Budget.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="Masini.Library.Premium" Collapsed="true">
+  <Class Name="Masini.Library.Entitati.Premium" Collapsed="true">
     <Position X="3" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAgBAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Premium.cs</FileName>
+      <FileName>Entitati\Premium.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
